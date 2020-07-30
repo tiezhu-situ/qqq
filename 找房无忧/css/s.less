@@ -1,0 +1,181 @@
+@hei:50%;
+body{
+  background-color: #F5F5F5;
+}
+.search{
+  margin: .2rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  input{
+    width: 90%;
+    height: .42rem;
+    border: .01rem solid #ccc;
+    outline: none;
+    border-radius: .05rem;
+    padding: 0 .3rem 0 .1rem;
+    box-sizing: border-box;
+  }
+  img{
+    position: absolute;
+    display: block;
+    right: .3rem;
+    top: .1rem;
+    width: .2rem;
+  }
+  &::after{
+    content: "";
+    display: block;
+    width: .01rem;
+    height: .2rem;
+    top: .1rem;
+    right: .6rem;
+    position: absolute;
+    background-color: black;
+  }
+}
+.home-nav{
+  &>ul{
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    padding: .1rem 0;
+    &>li{
+      flex: 1;
+      h4{
+        font-size: .2rem;
+        text-align: center;
+        color: #6D6766;
+        background: url(../image/SecondHandList/dd.png) no-repeat .65rem .0rem;
+        background-size: .2rem;
+      }
+      &.active h4{
+        color: #FF8A00;
+        background: url(../image/SecondHandList/up.png) no-repeat .65rem .0rem;
+        background-size: .2rem;
+      }
+      &>.area-p{
+        position: absolute;
+        top: .45rem;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .3);
+        .area{
+          background-color: #F0F0F0;
+          width: 25%;
+          text-align: center;
+          font-size: .2rem;
+          height: @hei;
+          li{
+            font-weight: bold;
+            padding: .05rem 0;
+            &.active{
+              background-color: #fff;
+              color:#FF8A00 ;
+            }
+          }
+        }
+        .item{
+          width: 75%;
+          background-color: #fff;
+          // display: flex;
+          height: @hei;
+          // flex-wrap: wrap;
+          overflow: hidden;
+          li{
+            float: left;
+            font-size: .12rem;
+            width: 50%;
+            height: .2rem;
+            margin: 0;
+            text-align: center;
+            margin: .1rem 0;
+            &.selected{
+              color: #FF8A00 ;
+            }
+          }
+        }
+      }
+      &>.pri-list{
+        position: absolute;
+        top: .45rem;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .3);
+        &>ul{
+          background-color: #fff;
+          padding: 0 .2rem;
+          font-size: .12rem;
+          box-sizing: border-box;
+          width: 100%;
+          height: @hei;
+          &>li{
+            padding: .1rem 0;
+            border-bottom: .01rem solid #ccc;
+            color: #333;
+          }
+        }
+      }
+      .between{
+        ul{
+          li{
+            display: flex;
+            justify-content: space-between;
+            span{
+              display: block;
+              width: .18rem;
+              height: .18rem;
+              border: .01rem solid #ccc;
+              &.active{
+                background: url(../image/SecondHandList/ok.png) no-repeat 0 .02rem;
+              }
+            }
+          }
+          p{
+            width: 100%;
+            height: .4rem;
+            text-align: center;
+            line-height: .4rem;
+            background-color: #FF8A00;
+            color: #fff;
+          }
+        }
+      }
+      &>.more{
+        position: absolute;
+        top: .45rem;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .3);
+        .more-item{
+          padding: .2rem .2rem;
+          background-color: #fff;
+          border-bottom: .01rem solid #ccc;
+          h5{
+            font-size: .16rem;
+            margin-bottom: .1rem;
+          }
+          ul{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+              width: 25%;
+              font-size: .16rem;
+              p{
+                text-align: center;
+                margin: .03rem .04rem;
+                border: .01rem solid #ccc;
+                box-sizing: border-box;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

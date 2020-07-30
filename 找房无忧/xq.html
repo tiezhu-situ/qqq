@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+    <title>Document</title>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=NeLNt4RUdqWmpU1G36D8XNjFPQ64fwpu"></script>
+    <link rel="stylesheet" href="./css/xq.css">
+</head>
+<body>
+    <div class="head">
+        <div class="headl"><img src="./image/index/logo.jpg" alt=""></div>
+        <div class="wd"><img src="./image/index/my.jpg" alt=""></div>
+        <div class="app"><img src="./image/index/xiazai.jpg" alt=""></div>
+    </div>
+    <div class="jd">
+        <img src="./image/SecondHandList/img.png" alt="">
+        <div class="lb">1/5</div>
+    </div>
+    <ul class="body">
+        <li class="ztc">天鹅湾小区精装两居，满五唯一，</li>
+        <li class="ztc">业主换房急售</li>
+        <li class="sj"><span class="ys">567</span>万元（单价：46327元/平）</li>
+        <li class="ztys">挂牌时间2015年6月20日</li>
+        <li class="d3">
+            <div class="xqf">学区房</div>
+            <div class="dj">独家</div>
+            <div class="mw">满五唯一</div>
+            <div></div>
+        </li>
+    </ul>
+    <ul class="asd">
+        <li>
+            户型：三室二厅
+            <span class="span">面积：100平</span>
+        </li>
+        <li>
+            楼层：中楼层
+            <span class="span">朝向：西南</span>
+        </li>
+        <li>
+            装修：精装
+            <span class="span">楼型：塔楼</span>
+        </li>
+        <li>
+            年代：2004年
+            <span class="span">区域:西二旗</span>
+        </li>
+        <li>
+            首付：123万
+            <span class="span">月供：15683元</span>
+        </li>
+        <li>
+            地铁：离西二旗地铁站800米
+        </li>
+        <li>
+            小区：珠江帝景
+        </li>
+        <li>
+            学校：北京市第二实验小学
+        </li>
+        <li class="gdxx">
+            更多房源信息
+        </li>
+    </ul>
+    <ul class="fyts">
+        <li class="ts">
+            房源特色
+        </li>
+        <li class="fyxq">
+            小区环境优雅，虽处闹市中(小区南200来有美廉美超市、西30米有华联商场、星美国际影城、东北角就是大中电器、小区东100米有汇佳幼儿园、昌平实验一小，昆泰国际大酒...
+        </li>
+        <li class="gdts">
+            更多特色
+        </li>
+    </ul>
+    <ul class="hxfj">
+        <li class="fj">
+            户型分间
+        </li>
+        <li class="fjxq">
+            <div class="tp">
+                <img src="./image/SecondHandList/img4.png" alt="">
+            </div>
+            <div class="riight">
+                <ul>
+                    <li class="zt">当前格局</li>
+                    <li class="sx">分间信息：客厅25平米，南北通透</li>
+                    <li class="zy">
+                        <div>南北通透</div>
+                        <div>全明格局</div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="fjxq1">
+            <div class="tp1">
+                <img src="./image/SecondHandList/img5.png" alt="">
+            </div>
+            <div class="riight1">
+                <ul>
+                    <li class="zt1">当前格局</li>
+                    <li class="sx1">分间信息：客厅25平米，南北通透</li>
+                    <li class="zy1">
+                        <div>南北通透</div>
+                        <div>全明格局</div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <ul class="dkxx">
+        <li class="dkxq">对口学校</li>
+        <li class="dkx"><span>学校名称：</span>北京市第二实验小学</li>
+        <li class="dkx"><span>升学方式：</span>直升、派位</li>
+        <li class="dkx"><span>对口中学：</span>团结湖小学</li>
+        <li class="dkx"><span>划片小区：</span>3个划片小区 在售房源150套</li>
+        <li class="dkx"><span>学校特色：</span>包食宿、有校车</li>
+        <li class="ckxxxq">查看学校详情</li>
+    </ul>
+    <ul class="dkxx">
+        <li class="dkxq">位置及周边</li>
+        <li class="dk">
+            <div id="container" class="container"></div>
+        </li>
+    </ul>
+    <ul class="tjfy">
+        <li class="tjzt">推荐房源</li>
+    </ul>
+    <ul class="fydxq">
+        <li class="tj">
+            下次一定！
+        </li>
+    </ul>
+</body>
+<script>
+    var map = new BMapGL.Map("container");
+    var point = new BMapGL.Point(116.404, 39.915);
+    map.centerAndZoom(point, 15); 
+    function setRem() {
+        var ui = 320;
+        var winWidth = document.documentElement.clientwidth || document.body.clientWidth;
+        document.getElementsByTagName('html')[0].style.fontSize = (winWidth / ui) * 10 + 'px';
+    }
+    window.onresize = setRem;
+</script>
+</html>

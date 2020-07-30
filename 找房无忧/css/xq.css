@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #F5F5F5;
+}
+.head {
+  position: relative;
+  width: 100%;
+  height: 4.2rem;
+  background-color: #FF8A00;
+}
+.head .headl {
+  padding-top: 0.6rem;
+  margin-left: 3.3rem;
+}
+.head .headl img {
+  width: 10rem;
+}
+.head .wd {
+  position: absolute;
+  top: 0.7rem;
+  right: 6rem;
+}
+.head .wd img {
+  width: 2.4rem;
+}
+.head .app {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.5rem;
+}
+.head .app img {
+  width: 2.4rem;
+}
+.jd {
+  position: relative;
+}
+.jd img {
+  width: 100%;
+}
+.jd .lb {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 0.8rem;
+  width: 4.1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0.8rem;
+  background-color: rgba(11, 7, 10, 0.5);
+}
+.body {
+  border-bottom: 1px solid gray ;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat 28.5rem 7.5rem white;
+  background-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.body .ztc {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.body .sj {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.body .sj .ys {
+  color: #DB4D40;
+  font-weight: bold;
+}
+.body .ztys {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 1.2rem;
+}
+.body .d3 {
+  overflow: hidden;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+.body .d3 .xqf {
+  float: left;
+  width: 4.5rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #849AAE;
+  background-color: #DEE9F0;
+  margin-right: 1.2rem;
+}
+.body .d3 .dj {
+  float: left;
+  width: 3.5rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #849AAE;
+  background-color: #DEE9F0;
+  margin-right: 1.2rem;
+}
+.body .d3 .mw {
+  float: left;
+  width: 5.8rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #849AAE;
+  background-color: #DEE9F0;
+}
+.asd {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0rem 2rem;
+  background-color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1.1rem;
+}
+.asd li {
+  height: 5rem;
+  position: relative;
+  line-height: 5rem;
+  border-bottom: 1px solid gray;
+}
+.asd li .span {
+  position: absolute;
+  left: 13.7rem;
+}
+.asd .gdxx {
+  border: 0px;
+  text-align: center;
+  color: gray;
+}
+.fyts {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0rem 2rem;
+  background-color: white;
+  margin-bottom: 1.2rem;
+}
+.fyts .ts {
+  font-size: 1.7rem;
+  color: #FF9326;
+  border-bottom: 1px solid gray;
+  height: 5.4rem;
+  line-height: 5.4rem;
+}
+.fyts .fyxq {
+  padding: 2rem 0rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid gray;
+}
+.fyts .gdts {
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+}
+.hxfj {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0rem 2rem;
+  background-color: white;
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+}
+.hxfj .fj {
+  font-size: 1.7rem;
+  color: #FF9326;
+  border-bottom: 1px solid gray;
+  height: 5.4rem;
+  line-height: 5.4rem;
+}
+.hxfj .fjxq {
+  padding: 2rem 0rem;
+  border-bottom: 1px solid #FFA943;
+  display: flex;
+}
+.hxfj .fjxq .tp {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 0.5rem;
+}
+.hxfj .fjxq .tp img {
+  width: 100%;
+  height: 100%;
+}
+.hxfj .fjxq .riight .zt {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.hxfj .fjxq .riight .sx {
+  margin: 1rem 0rem;
+}
+.hxfj .fjxq .riight .zy {
+  overflow: hidden;
+}
+.hxfj .fjxq .riight .zy div {
+  float: left;
+  width: 5.8rem;
+  height: 2.5rem;
+  color: #849AAE;
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #F4F7F9;
+  margin-right: 0.5rem;
+}
+.hxfj .fjxq1 {
+  padding: 2rem 0rem;
+  display: flex;
+}
+.hxfj .fjxq1 .tp1 {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 0.5rem;
+}
+.hxfj .fjxq1 .tp1 img {
+  width: 100%;
+  height: 100%;
+}
+.hxfj .fjxq1 .riight1 ul {
+  display: fl;
+}
+.hxfj .fjxq1 .riight1 .zt1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.hxfj .fjxq1 .riight1 .sx1 {
+  margin: 1rem 0rem;
+}
+.hxfj .fjxq1 .riight1 .zy1 {
+  overflow: hidden;
+}
+.hxfj .fjxq1 .riight1 .zy1 div {
+  float: left;
+  width: 5.8rem;
+  height: 2.5rem;
+  color: #849AAE;
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #F4F7F9;
+  margin-right: 0.5rem;
+}
+.dkxx {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0rem 2rem;
+  background-color: white;
+  box-sizing: border-box;
+  margin-bottom: 1.2rem;
+}
+.dkxx .dkxq {
+  font-size: 1.7rem;
+  border-bottom: 1px solid gray;
+  height: 5.4rem;
+  line-height: 5.4rem;
+}
+.dkxx .dkx {
+  height: 5.4rem;
+  line-height: 5.4rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid gray;
+}
+.dkxx .dkx span {
+  color: gray;
+}
+.dkxx .dk {
+  margin: 2rem 0rem;
+}
+.dkxx .dk #container {
+  width: 100%;
+  height: 15.5rem;
+}
+.dkxx .ckxxxq {
+  height: 5.4rem;
+  line-height: 5.4rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: gray;
+}
+.tjfy {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+}
+.tjfy .tjzt {
+  font-size: 1.7rem;
+  height: 5.4rem;
+  line-height: 5.4rem;
+}
+.fydxq {
+  border-bottom: 1px solid gray;
+  background-color: white;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+}
+.tj {
+  color: gray;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}

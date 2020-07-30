@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://lib.baomitu.com/echarts/4.7.0/echarts-en.common.min.js"></script>
+</head>
+
+<body>
+    <div id="main" style="width: 600px;height:400px;"></div>
+</body>
+    <script>
+        var myChart = echarts.init(document.getElementById('main'));
+        option = {
+    xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        type: 'line'
+    }]
+};
+
+        myChart.setOption(option);
+    </script>
+</html>
